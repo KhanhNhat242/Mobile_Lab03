@@ -6,7 +6,8 @@ function Cau1d() {
              <Text style={styles.title}>LOGIN</Text>
              <View style={styles.inputWrapper}>
                 <TextInput placeholder="Email" style={styles.input} />
-                <TextInput placeholder="Password" style={styles.input} />
+                <TextInput placeholder="Password" style={[styles.input, {position: 'relative'}]} />
+                <Image style={[styles.imgEye]} source={require('../assets/eye1.png')} />
              </View>
              <View style={styles.btnWrapper}>
                 <TouchableOpacity style={styles.btnLogin}>
@@ -61,6 +62,13 @@ const styles = StyleSheet.create({
         fontWeight: 400,
         fontFamily: 'Roboto',
         paddingLeft: 20,
+    },
+    imgEye: {
+        width: 40,
+        height: 40,
+        position: 'absolute',
+        right: 45,
+        top: 100,
     },
     btnWrapper: {
         display: 'flex',
