@@ -5,6 +5,9 @@ import Cau1b from './components/1_b';
 import Cau1c from './components/1_c';
 import Cau1d from './components/1_d';
 import Cau1e from './components/1_e';
+import Cau2a from './components/2_a';
+import FirstScreen from './components/FirstScreen';
+import XMEye from './components/XMEye';
 
 export default function App() {
   return (
@@ -12,7 +15,10 @@ export default function App() {
     // <Cau1b />
     // <Cau1c />
     // <Cau1d />
-    <Cau1e />
+    // <Cau1e />
+    // <Cau2a />
+    // <FirstScreen /> 
+    <XMEye />
   );
 }
 
